@@ -1,0 +1,40 @@
+name: Daily catalog sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 10 * * *'
+      timezone: 'America/New_York'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Sync Apify and CoreClaw catalogs
+        run: node settings/sync_catalog.js
+      - name: Commit catalog changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog/README.md featured/coreclaw.md
+          if git diff --cached --quiet; then
+            echo "No catalog changes detected."
+            exit 0
+          fi
+          git commit -m "chore: sync data API catalogs"
+          git push
+

@@ -1,0 +1,11 @@
+{
+  "displayTitle": "Ecommerce Intelligence APIs",
+  "tagline": "Product, price, review, seller, marketplace, and store intelligence APIs.",
+  "icon": "🛒",
+  "megaListSource": "https://raw.githubusercontent.com/cporter202/API-mega-list/main/ecommerce-apis-2245/README.md",
+  "coreclawSource": "https://raw.githubusercontent.com/cporter202/coreclaw-api-directory/main/e-commerce-marketplaces/README.md",
+  "audience": ["Ecommerce brands", "Marketplace sellers", "Retail analysts", "Price-monitoring builders", "Product researchers"],
+  "useCases": ["Competitor price monitoring", "Product and catalog research", "Review and sentiment collection", "Marketplace seller intelligence", "Retail dashboards and alerts"],
+  "topics": ["ecommerce", "marketplace-data", "price-monitoring", "product-data", "web-scraping", "retail-intelligence", "apis", "apify", "coreclaw"]
+}
+

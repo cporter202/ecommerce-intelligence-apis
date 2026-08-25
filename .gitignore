@@ -1,0 +1,5 @@
+node_modules/
+apify_actors.json
+.env
+.DS_Store
+
