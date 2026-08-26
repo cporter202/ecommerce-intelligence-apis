@@ -25,8 +25,15 @@
 
 A focused directory for builders collecting product catalogs, prices, reviews, seller data, marketplace rankings, and competitive retail signals.
 
+The API lists are the main content of this repository:
+
 - [Browse Apify ecommerce APIs](catalog/README.md) — a large directory of ready-to-use actors.
 - [Browse CoreClaw ecommerce workers](featured/coreclaw.md) — focused workers with API and MCP access.
+
+| API list | What you will find |
+|---|---|
+| [Apify API list](catalog/README.md) | The full ecommerce API directory, with one entry per actor and description. |
+| [CoreClaw API list](featured/coreclaw.md) | The full ecommerce worker directory, with worker IDs and capabilities. |
 
 ## Featured provider paths
 
@@ -73,7 +80,7 @@ A focused directory for builders collecting product catalogs, prices, reviews, s
 
 ## Provider notes
 
-This repository preserves referral parameters present in the upstream catalogs where available. See [SPONSORED_PARTNERS.md](SPONSORED_PARTNERS.md) for the disclosure. A referral link is not an endorsement of fit, quality, legality, or pricing.
+This repository preserves referral parameters present in the API lists where available. See [LINKS.md](LINKS.md) for a neutral referral-link note. A referral link is not an endorsement of fit, quality, legality, or pricing.
 
 Respect retailer terms, robots rules, privacy obligations, rate limits, intellectual-property restrictions, and marketplace policies. Prefer official APIs for data you own or are authorized to access.
 
