@@ -45,11 +45,10 @@ async function syncOne(url, destination, heading) {
 
 async function main() {
   await syncOne(config.megaListSource, 'catalog/README.md', 'Apify catalog');
-  await syncOne(config.coreclawSource, 'featured/coreclaw.md', 'CoreClaw catalog');
+  await syncOne(config.coreclawSource, 'catalog/coreclaw.md', 'CoreClaw catalog');
 }
 
 main().catch((error) => {
   console.error(error.stack || error.message);
   process.exitCode = 1;
 });
-
