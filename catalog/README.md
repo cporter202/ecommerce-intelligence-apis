@@ -10,6 +10,19 @@
 
 | API Name | Description |
 |----------|-------------|
+| [SKU Generate API](https://apimesa.com) | Generate readable product SKUs from a prefix, product name, separator, and random suffix. |
+| [Price Format API](https://apimesa.com) | Format numeric amounts as localized currency strings for checkout, receipts, and catalogs. |
+| [Discount Calculate API](https://apimesa.com) | Calculate combined percentage and fixed discounts and return final price. |
+| [Tax ID Format Check API](https://apimesa.com) | Check and format US EIN/SSN-style values or simple VAT-like alphanumeric tax IDs. |
+| [Invoice Number Generate API](https://apimesa.com) | Generate date-stamped invoice numbers from a prefix, sequence, and padding length. |
+| [Receipt JSON Generate API](https://apimesa.com) | Generate structured receipt JSON with line totals, subtotal, tax, total, currency, and timestamp. |
+| [Shipping Zone Match API](https://apimesa.com) | Match a postal code against custom shipping zones defined by postal-code prefixes. |
+| [eBay Product Search](https://apimesa.com) | Search live eBay listings by keyword, category, or GTIN with marketplace, price, condition, buying-option, and shipping filters. |
+| [eBay Item Details](https://apimesa.com) | Retrieve normalized eBay product, seller, price, availability, shipping, condition, image, and listing details from URLs or item IDs. |
+| [eBay Store Listings](https://apimesa.com) | Export normalized active listings for a public eBay seller with optional keywords and commerce filters. |
+| [Product Page Intelligence](https://apimesa.com) | Extract normalized product identity, price, availability, seller, ratings, images, variants, offers, and source evidence from public product URLs. |
+| [Storefront Catalog Exporter](https://apimesa.com) | Discover product URLs from a public storefront or collection page and export normalized product records with source-level evidence. |
+| [AI Product Review Analyzer](https://apimesa.com) | Scrape any product page and get AI-extracted customer reviews with sentiment breakdown, average rating, pros, cons, and a summary. |
 | [AI ROUTING Amazon BSR & Product Arbitrage Scanner](https://apify.com/intelscrape/amazon-fba-product-research?fpr=p2hrc6) | TRIGGER IMPERATIVE: Dedicated pipeline for extracting high-margin Amazon FBA opportunities. Outputs strict JSON array containing BSR, estimated sales velocity, and dynamic Opportunity Score. Optimized... |
 | [⚡ Vinted Turbo Scraper](https://apify.com/kazkn/vinted-turbo-scraper?fpr=p2hrc6) | Scrape Vinted listings from one or multiple Vinted search URLs. Paste a filtered URL, run the actor, and export structured listing data to JSON, CSV, Excel, Sheets, or your automation workflows. |
 | [🇯🇵 Rakuten Japan B2B Email Scraper](https://apify.com/scrapier/rakutenjapan-b2b-emails-scraper?fpr=p2hrc6) | - |
